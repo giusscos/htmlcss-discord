@@ -11,6 +11,7 @@ menu{
 img{
     max-width: 100%;
 }
+/* debug */
 .debug__header{
     background-color: lightblue;
 }
@@ -21,6 +22,31 @@ img{
     padding: 8px 10px;
     border: 2px dashed #000;
 }
+.debug__section-b{
+    background-color: blue;
+}
+.debug__container-s{
+    min-height: 400px;
+    background-color: pink;
+    border: 2px dashed blueviolet;
+}
+.debug__section{
+    background-color: #fff;
+}
+.debug__section:nth-child(even){
+    background-color: lightgray;
+}
+.debug__container{
+    min-height: 400px;
+    background-color: blue;
+    border: 2px dashed red;
+}
+.debug__container-split{
+    height: 400px;
+    border: 2px dashed blueviolet;
+    background-color: forestgreen;
+}
+/* End debug */
 .main-header__nav{
     padding: 10px;
 }
@@ -46,4 +72,31 @@ img{
 }
 .auth{
     text-align: right;
+}
+.section{
+    padding: 40px 0;
+}
+.section__container{
+    margin: 0 auto;
+    max-width: 800px;
+}
+.row{
+    padding: 40px 0;
+    background-color: #fff;
+}
+.section__container-split{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.row:nth-child(odd) > .section__container-split{
+    flex-direction: row-reverse;
+}
+.container__main{
+    flex-grow: 1;
+    background-color: lightcyan;
+}
+.container__side{
+    flex-basis: calc(100% / 3);  
+    background-color: lightcoral;
 }
