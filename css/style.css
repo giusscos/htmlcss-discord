@@ -46,6 +46,23 @@ img{
     border: 2px dashed blueviolet;
     background-color: forestgreen;
 }
+.debug__container-big{
+    min-height: 800px;
+    background-color: green;
+    border: 2px dashed red;
+}
+.debug__footer-container{
+    min-height: 500px;
+    border: 2px dashed pink;
+    background-color: lightgreen;
+}
+.debug__footer-container:nth-child(1){
+    background-color: coral;
+}
+.debug__bottom-footer-container{
+    min-height: 50px;
+    background-color: lightseagreen;
+}
 /* End debug */
 .main-header__nav{
     padding: 10px;
@@ -99,4 +116,44 @@ img{
 .container__side{
     flex-basis: calc(100% / 3);  
     background-color: lightcoral;
+}
+.section__container-big{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.row-footer{
+    background-color: #222;
+}
+.row-footer:nth-child(1){
+    border-bottom: 1px solid #fff;
+}
+.row-footer:nth-child(2){
+    padding-top: 20px;
+}
+.footer__container,
+.bottom-footer__container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    flex-direction: row;
+}
+.footer__container{
+    padding: 40px 0;
+}
+.container__big{
+    flex-basis: calc(100% / 3);
+}
+.container__small{
+    flex-basis: calc(100% / 6);
+}
+.bottom-footer__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container__bottom-item{
+    background-color: pink;
+    padding: 5px 10px;
+    border: 2px dashed #000;
 }
