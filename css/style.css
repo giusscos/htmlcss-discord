@@ -16,7 +16,7 @@ menu{
 img{
     max-width: 100%;
 }
-/* debug 
+/* debug */
 .debug .section .container{
     padding: 20px;
     min-height: 400px;
@@ -61,7 +61,7 @@ img{
 .debug .footer .container .credit-footer *{
     padding: 20px;
     border: 2px solid pink;
-}*/
+}
 /* End debug */
 /* Nav */
 .main-header{
@@ -109,7 +109,7 @@ img{
 }
 /* End Nav */
 /* Main */
-.section{
+.section .container{
     padding: 150px 0;
 }
 .section:nth-child(odd){
