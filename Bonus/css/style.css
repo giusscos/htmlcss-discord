@@ -333,6 +333,9 @@ img{
 .list-link.footer-content{
     color: #fff;
 } 
+.list-link.footer-content img{
+    width: 40px;
+} 
 .container-small-content{
     flex-basis: calc(100% / 6);
 }
